@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/coldtee/Projects/myCpp/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

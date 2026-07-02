@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/weak_ptr.dir/link.d CMakeFiles/weak_ptr.dir/src/weak_ptr.cpp.o -o weak_ptr

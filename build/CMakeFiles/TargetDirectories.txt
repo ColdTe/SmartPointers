@@ -1,0 +1,5 @@
+/home/coldtee/Projects/myCpp/build/CMakeFiles/weak_ptr.dir
+/home/coldtee/Projects/myCpp/build/CMakeFiles/shared_ptr.dir
+/home/coldtee/Projects/myCpp/build/CMakeFiles/unique_ptr.dir
+/home/coldtee/Projects/myCpp/build/CMakeFiles/edit_cache.dir
+/home/coldtee/Projects/myCpp/build/CMakeFiles/rebuild_cache.dir
