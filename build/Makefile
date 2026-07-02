@@ -162,6 +162,43 @@ unique_ptr/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/unique_ptr.dir/build.make CMakeFiles/unique_ptr.dir/build
 .PHONY : unique_ptr/fast
 
+#=============================================================================
+# Target rules for targets named fileSystem
+
+# Build rule for target.
+fileSystem: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 fileSystem
+.PHONY : fileSystem
+
+# fast build rule for target.
+fileSystem/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileSystem.dir/build.make CMakeFiles/fileSystem.dir/build
+.PHONY : fileSystem/fast
+
+src/fileSystem.o: src/fileSystem.cpp.o
+.PHONY : src/fileSystem.o
+
+# target to build an object file
+src/fileSystem.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileSystem.dir/build.make CMakeFiles/fileSystem.dir/src/fileSystem.cpp.o
+.PHONY : src/fileSystem.cpp.o
+
+src/fileSystem.i: src/fileSystem.cpp.i
+.PHONY : src/fileSystem.i
+
+# target to preprocess a source file
+src/fileSystem.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileSystem.dir/build.make CMakeFiles/fileSystem.dir/src/fileSystem.cpp.i
+.PHONY : src/fileSystem.cpp.i
+
+src/fileSystem.s: src/fileSystem.cpp.s
+.PHONY : src/fileSystem.s
+
+# target to generate assembly for a file
+src/fileSystem.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/fileSystem.dir/build.make CMakeFiles/fileSystem.dir/src/fileSystem.cpp.s
+.PHONY : src/fileSystem.cpp.s
+
 src/shared_ptr.o: src/shared_ptr.cpp.o
 .PHONY : src/shared_ptr.o
 
@@ -243,9 +280,13 @@ help:
 	@echo "... codegen"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... fileSystem"
 	@echo "... shared_ptr"
 	@echo "... unique_ptr"
 	@echo "... weak_ptr"
+	@echo "... src/fileSystem.o"
+	@echo "... src/fileSystem.i"
+	@echo "... src/fileSystem.s"
 	@echo "... src/shared_ptr.o"
 	@echo "... src/shared_ptr.i"
 	@echo "... src/shared_ptr.s"
